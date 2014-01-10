@@ -1,3 +1,5 @@
+"first of all
+"git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 "关闭vi的一致性模式 避免以前版本的一些Bug和局限
 set nocompatible
 "配置backspace键工作方式
