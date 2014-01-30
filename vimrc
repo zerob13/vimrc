@@ -56,7 +56,7 @@ set autochdir
 set tags=tags;
 
 "检测文件类型
-filetype on
+filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -71,6 +71,10 @@ Bundle 'flazz/vim-colorschemes'
 Bundle 'ervandew/supertab'
 Bundle 'zerob13/Conque-Shell'
 Bundle 'sjbach/lusty'
+Bundle 'cespare/vim-golang'
+Bundle 'Blackrush/vim-gocode'
+Bundle 'dgryski/vim-godef'
+
 
 set laststatus=2
 let g:Powline_symbols='fancy'
@@ -90,8 +94,11 @@ map <C-h> :tabp<cr>             "上一个tab
 map <C-n> :tabnew<cr>           "新tab
 map <C-k> :bn<cr>               "下一个文件
 map <C-j> :bp<cr>               "上一个文件
+map <F10> :ConqueTermTab bash<cr>
 
 set guifont=Monaco:h16
+"自动格式化Go文件
+autocmd BufWritePre *.go :Fmt
 
 "新建.c,.h,.sh,.java,py文件，自动插入文件头
 autocmd BufNewFile *.cpp,*.[ch],*.sh,*.java,*.py exec ":call SetTitle()"
