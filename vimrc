@@ -81,6 +81,7 @@ let g:Powline_symbols='fancy'
 let g:SuperTabDefaultCompletionType="context" 
 filetype plugin on
 filetype plugin indent on
+set transparency=10
 
 "autocmd vimenter * NERDTree
 "autocmd vimenter * if !argc() | NERDTree | endif
@@ -94,7 +95,7 @@ map <C-h> :tabp<cr>             "上一个tab
 map <C-n> :tabnew<cr>           "新tab
 map <C-k> :bn<cr>               "下一个文件
 map <C-j> :bp<cr>               "上一个文件
-map <F10> :ConqueTermTab bash<cr>
+map <F10> :ConqueTermTab zsh<cr>
 
 set guifont=Monaco:h16
 "自动格式化Go文件

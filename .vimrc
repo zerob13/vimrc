@@ -1,5 +1,3 @@
-"first of all
-"git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 "关闭vi的一致性模式 避免以前版本的一些Bug和局限
 set nocompatible
 "配置backspace键工作方式
@@ -24,6 +22,7 @@ set showmatch
 set autoindent
 set cindent
 
+set hidden
 "开启语法高亮功能
 syntax enable
 syntax on
@@ -57,40 +56,50 @@ set autochdir
 set tags=tags;
 
 "检测文件类型
-filetype on
+filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " My Plugins
 Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'scrooloose/nerdtree'
+"Bundle 'scrooloose/nerdtree'
 Bundle 'majutsushi/tagbar'
 Bundle 'vim-scripts/a.vim'
 Bundle 'flazz/vim-colorschemes'
-Bundle 'jistr/vim-nerdtree-tabs'
+"Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'ervandew/supertab'
+Bundle 'zerob13/Conque-Shell'
+Bundle 'sjbach/lusty'
+Bundle 'cespare/vim-golang'
+Bundle 'Blackrush/vim-gocode'
+Bundle 'dgryski/vim-godef'
+
 
 set laststatus=2
 let g:Powline_symbols='fancy'
 let g:SuperTabDefaultCompletionType="context" 
 filetype plugin on
 filetype plugin indent on
+set transparency=10
 
 "autocmd vimenter * NERDTree
-autocmd vimenter * if !argc() | NERDTree | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+"autocmd vimenter * if !argc() | NERDTree | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 colorscheme desert
 " My nmaps
 nmap <C-o> :TagbarToggle<CR>
-nmap <F8> :NERDTreeTabsToggle<CR>
+nmap <F8> :LustyFilesystemExplorerFromHere<CR>
 map <C-l> :tabn<cr>             "下一个tab
 map <C-h> :tabp<cr>             "上一个tab
 map <C-n> :tabnew<cr>           "新tab
 map <C-k> :bn<cr>               "下一个文件
 map <C-j> :bp<cr>               "上一个文件
+map <F10> :ConqueTermTab zsh<cr>
 
 set guifont=Monaco:h16
+"自动格式化Go文件
+autocmd BufWritePre *.go :Fmt
 
 "新建.c,.h,.sh,.java,py文件，自动插入文件头
 autocmd BufNewFile *.cpp,*.[ch],*.sh,*.java,*.py exec ":call SetTitle()"
