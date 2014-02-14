@@ -74,7 +74,7 @@ Bundle 'sjbach/lusty'
 Bundle 'cespare/vim-golang'
 Bundle 'Blackrush/vim-gocode'
 Bundle 'dgryski/vim-godef'
-
+Bundle 'vim-scripts/xml.vim'
 
 set laststatus=2
 let g:Powline_symbols='fancy'
