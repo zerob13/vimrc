@@ -28,7 +28,9 @@ syntax enable
 syntax on
 
 "指定配色方案为256色
-set t_Co=256
+"set t_Co=256
+set background=dark
+colorscheme solarized
 
 "设置搜索时忽略大小写
 set ignorecase
