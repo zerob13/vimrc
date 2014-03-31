@@ -82,13 +82,14 @@ Bundle 'terryma/vim-multiple-cursors'
 Bundle 'tpope/vim-commentary'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/Mark'
+Bundle 'vim-scripts/vimtodo'
 
 set laststatus=2
 let g:Powline_symbols='fancy'
 let g:SuperTabDefaultCompletionType="context" 
 filetype plugin on
 filetype plugin indent on
-set transparency=10
+" set transparency=10
 
 "autocmd vimenter * NERDTree
 "autocmd vimenter * if !argc() | NERDTree | endif
@@ -105,8 +106,8 @@ map <C-j> :bp<cr>               "上一个文件
 map <F10> :ConqueTermTab zsh<cr>
 
 "设置html css补全
-let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
+"let g:user_emmet_install_global = 0
+"autocmd FileType html,css EmmetInstall
 
 set guifont=Monaco:h16
 "自动格式化Go文件
