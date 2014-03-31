@@ -62,7 +62,7 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" My Plugins
+"My Plugins
 Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-powerline'
 "Bundle 'scrooloose/nerdtree'
@@ -89,13 +89,13 @@ let g:Powline_symbols='fancy'
 let g:SuperTabDefaultCompletionType="context" 
 filetype plugin on
 filetype plugin indent on
-" set transparency=10
+"set transparency=10
 
 "autocmd vimenter * NERDTree
 "autocmd vimenter * if !argc() | NERDTree | endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 colorscheme desert
-" My nmaps
+"My nmaps
 nmap <C-o> :TagbarToggle<CR>
 nmap <F8> :LustyFilesystemExplorerFromHere<CR>
 map <C-l> :tabn<cr>             "下一个tab
