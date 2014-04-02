@@ -83,6 +83,7 @@ Bundle 'tpope/vim-commentary'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/Mark'
 Bundle 'vim-scripts/vimtodo'
+Bundle 'vim-scripts/pyflakes'
 
 set laststatus=2
 let g:Powline_symbols='fancy'
