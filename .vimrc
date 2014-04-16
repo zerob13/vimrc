@@ -83,11 +83,14 @@ Bundle 'tpope/vim-commentary'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/Mark'
 Bundle 'vim-scripts/vimtodo'
+Bundle 'vim-scripts/pyflakes'
 
 set laststatus=2
 let g:Powline_symbols='fancy'
 let g:SuperTabDefaultCompletionType="context" 
 filetype plugin on
+filetype plugin indent off
+set runtimepath+=$GOROOT/misc/vim
 filetype plugin indent on
 "set transparency=10
 
@@ -153,4 +156,4 @@ func SetTitle()
     "新建文件后，自动定位到文件末尾
     autocmd BufNewFile * normal G
 endfunc
-
+let g:gofmt_command = "goimports"
