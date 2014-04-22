@@ -87,6 +87,7 @@ Bundle 'vim-scripts/vimtodo'
 Bundle 'vim-scripts/pyflakes'
 Bundle 'mattn/gist-vim'
 Bundle 'mattn/webapi-vim'
+Bundle 'tpope/vim-fugitive'
 
 set laststatus=2
 "let g:Powline_symbols='fancy'
