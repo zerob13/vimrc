@@ -84,6 +84,8 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/Mark'
 Bundle 'vim-scripts/vimtodo'
 Bundle 'vim-scripts/pyflakes'
+Bundle 'mattn/gist-vim'
+Bundle 'mattn/webapi-vim'
 
 set laststatus=2
 let g:Powline_symbols='fancy'
@@ -157,3 +159,5 @@ func SetTitle()
     autocmd BufNewFile * normal G
 endfunc
 let g:gofmt_command = "goimports"
+let g:gist_detect_filetype = 1
+let g:gist_show_privates = 1
