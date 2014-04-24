@@ -88,6 +88,7 @@ Bundle 'vim-scripts/pyflakes'
 Bundle 'mattn/gist-vim'
 Bundle 'mattn/webapi-vim'
 Bundle 'tpope/vim-fugitive'
+Bundle 'Keithbsmiley/investigate.vim'
 
 set laststatus=2
 "let g:Powline_symbols='fancy'
@@ -183,3 +184,6 @@ let g:airline_symbols.paste = 'ρ'
 let g:airline_symbols.paste = 'Þ'
 let g:airline_symbols.paste = '∥'
 let g:airline_symbols.whitespace = 'Ξ'
+
+" use dash to open doc :gk
+let g:investigate_use_dash=1
