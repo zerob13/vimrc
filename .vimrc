@@ -89,6 +89,7 @@ Bundle 'mattn/gist-vim'
 Bundle 'mattn/webapi-vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Keithbsmiley/investigate.vim'
+Bundle 'groenewege/vim-less'
 
 set laststatus=2
 "let g:Powline_symbols='fancy'
