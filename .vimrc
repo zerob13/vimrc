@@ -89,7 +89,9 @@ Bundle 'mattn/gist-vim'
 Bundle 'mattn/webapi-vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Keithbsmiley/investigate.vim'
-Bundle 'groenewege/vim-less'
+" Bundle 'groenewege/vim-less'
+" Bundle 'JulesWang/css.vim' // only necessary if your Vim version < 7.4
+Bundle 'cakebaker/scss-syntax.vim'
 
 set laststatus=2
 "let g:Powline_symbols='fancy'
