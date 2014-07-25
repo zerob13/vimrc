@@ -8,21 +8,21 @@ set number
 set ruler
 "在状态栏显示正在输入的命令
 set showcmd
-
 "设置历史记录条数
 set history=1000
-
 "设置取消备份 禁止临时文件生成
 set nobackup
 set noswapfile
 "设置匹配模式 类似当输入一个左括号时会匹配相应的那个右括号
 set showmatch
-
 "设置C/C++方式自动对齐
 set autoindent
 set cindent
-
 set hidden
+" 默认打开menubar
+set guioptions+=T
+" only for yosemite
+set shell=bash\ -l
 "开启语法高亮功能
 syntax enable
 syntax on
