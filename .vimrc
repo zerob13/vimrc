@@ -19,10 +19,8 @@ set showmatch
 set autoindent
 set cindent
 set hidden
-" 默认打开menubar
-set guioptions+=T
-" only for yosemite
-set shell=bash\ -l
+" only for yosemite 
+" set shell=bash\ -l
 "开启语法高亮功能
 syntax enable
 syntax on
@@ -93,6 +91,17 @@ Bundle 'Keithbsmiley/investigate.vim'
 " Bundle 'groenewege/vim-less'
 " Bundle 'JulesWang/css.vim' // only necessary if your Vim version < 7.4
 Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'SirVer/ultisnips'
+" Snippets 
+Plugin 'honza/vim-snippets'
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 
 set laststatus=2
 "let g:Powline_symbols='fancy'
@@ -191,3 +200,4 @@ let g:airline_symbols.whitespace = 'Ξ'
 
 " use dash to open doc :gk
 let g:investigate_use_dash=1
+
