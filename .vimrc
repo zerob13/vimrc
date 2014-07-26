@@ -74,9 +74,10 @@ Bundle 'flazz/vim-colorschemes'
 Bundle 'ervandew/supertab'
 " Bundle 'zerob13/Conque-Shell'
 Bundle 'sjbach/lusty'
-Bundle 'cespare/vim-golang'
-Bundle 'Blackrush/vim-gocode'
-Bundle 'dgryski/vim-godef'
+" Bundle 'cespare/vim-golang'
+" Bundle 'Blackrush/vim-gocode'
+" Bundle 'dgryski/vim-godef'
+Bundle 'fatih/vim-go'
 Bundle 'vim-scripts/xml.vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'terryma/vim-multiple-cursors'
@@ -122,7 +123,7 @@ map <F10> :ConqueTermTab zsh<cr>
 
 set guifont=Monaco:h16
 "自动格式化Go文件
-autocmd BufWritePre *.go :Fmt
+" autocmd BufWritePre *.go :Fmt
 
 "新建.c,.h,.sh,.java,py文件，自动插入文件头
 autocmd BufNewFile *.cpp,*.[ch],*.sh,*.java,*.py exec ":call SetTitle()"
@@ -164,7 +165,7 @@ func SetTitle()
     "新建文件后，自动定位到文件末尾
     autocmd BufNewFile * normal G
 endfunc
-let g:gofmt_command = "goimports"
+" let g:gofmt_command = "goimports"
 let g:gist_detect_filetype = 1
 let g:gist_show_privates = 1
 
