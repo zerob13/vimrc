@@ -94,7 +94,6 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'SirVer/ultisnips'
 " Snippets 
 Bundle 'honza/vim-snippets'
-Bundle 'hsanson/vim-android'
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<tab>"
