@@ -20,7 +20,7 @@ set autoindent
 set cindent
 set hidden
 " only for yosemite 
-" set shell=bash\ -l
+set shell=bash\ -l
 "开启语法高亮功能
 syntax enable
 syntax on
@@ -94,6 +94,7 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'SirVer/ultisnips'
 " Snippets 
 Bundle 'honza/vim-snippets'
+Bundle 'severin-lemaignan/vim-minimap'
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<tab>"
@@ -119,6 +120,7 @@ colorscheme desert
 "My nmaps
 nmap <C-o> :TagbarToggle<CR>
 nmap <F8> :LustyFilesystemExplorerFromHere<CR>
+nmap <F9> :Minimap<CR>
 map <C-l> :tabn<cr>             "下一个tab
 map <C-h> :tabp<cr>             "上一个tab
 map <C-n> :tabnew<cr>           "新tab
