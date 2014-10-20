@@ -24,7 +24,8 @@ set shell=bash\ -l
 "开启语法高亮功能
 syntax enable
 syntax on
-
+" leader key
+let mapleader = ","
 "指定配色方案为256色
 "set t_Co=256
 set background=dark
@@ -117,7 +118,7 @@ filetype plugin indent on
 "autocmd vimenter * if !argc() | NERDTree | endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 colorscheme desert
-"My nmaps
+"My maps
 nmap <C-o> :TagbarToggle<CR>
 nmap <F8> :LustyFilesystemExplorerFromHere<CR>
 nmap <F9> :Minimap<CR>
@@ -126,7 +127,14 @@ map <C-h> :tabp<cr>             "上一个tab
 map <C-n> :tabnew<cr>           "新tab
 map <C-k> :bn<cr>               "下一个文件
 map <C-j> :bp<cr>               "上一个文件
-map <F10> :ConqueTermTab zsh<cr>
+map <Leader>fs :LustyFilesystemExplorerFromHere<CR>
+map <Leader>tb :TagbarToggle<CR>
+map <Leader>nextt :tabn<CR>
+map <Leader>prevt :tabp<CR>
+map <Leader>newt :tabnew<CR>
+map <Leader>nextb :bn<CR>
+map <Leader>prevb :bp<CR>
+
 
 "设置html css补全
 "let g:user_emmet_install_global = 0
@@ -176,7 +184,8 @@ func SetTitle()
     "新建文件后，自动定位到文件末尾
     autocmd BufNewFile * normal G
 endfunc
-" let g:gofmt_command = "goimports"
+let g:go_fmt_command = "goimports"
+let g:go_fmt_fail_silently = 1
 let g:gist_detect_filetype = 1
 let g:gist_show_privates = 1
 
