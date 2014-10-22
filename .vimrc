@@ -134,6 +134,7 @@ map <Leader>prevt :tabp<CR>
 map <Leader>newt :tabnew<CR>
 map <Leader>nextb :bn<CR>
 map <Leader>prevb :bp<CR>
+map <Leader>buff :LustyBufferExplorer<CR>
 
 
 "设置html css补全
