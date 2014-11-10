@@ -2,7 +2,7 @@ vimrc
 =====
 
 My Vim rc file
-Support C/C++/GO/JS/HTML/CSS/ToDoList
+Support GO/HTML/SASS/JS
 Relying on the [Drawille
 library](https://github.com/asciimoo/drawille) to 'draw' in text mode.
 
