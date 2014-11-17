@@ -7,7 +7,6 @@ set laststatus=2
 Bundle "bling/vim-airline"
 Bundle 'majutsushi/tagbar'
 Bundle 'flazz/vim-colorschemes'
-Bundle 'severin-lemaignan/vim-minimap'
 Bundle 'ervandew/supertab'
 let g:SuperTabDefaultCompletionType="context" 
 set guifont=Monaco:h16
