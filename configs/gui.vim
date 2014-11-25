@@ -8,6 +8,8 @@ Bundle "bling/vim-airline"
 Bundle 'majutsushi/tagbar'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'ervandew/supertab'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle "myusuf3/numbers.vim"
 let g:SuperTabDefaultCompletionType="context" 
 set guifont=Monaco:h16
 colorscheme desertedocean
@@ -31,4 +33,7 @@ let g:airline_symbols.paste = 'Þ'
 let g:airline_symbols.paste = '∥'
 let g:airline_symbols.whitespace = 'Ξ'
 
+let g:numbers_exclude = ['tagbar', 'minibufexpl', 'nerdtree']
 
+let g:indent_guides_start_level=2
+let g:indent_guides_guide_size=1

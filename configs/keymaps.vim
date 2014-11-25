@@ -8,7 +8,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "My maps
 nmap <C-o> :TagbarToggle<CR>
 nmap <F8> :LustyFilesystemExplorerFromHere<CR>
-nmap <F9> :Minimap<CR>
 map <C-l> :tabn<cr>             "下一个tab
 map <C-h> :tabp<cr>             "上一个tab
 map <C-n> :tabnew<cr>           "新tab
