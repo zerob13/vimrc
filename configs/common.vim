@@ -59,8 +59,9 @@ Bundle 'tpope/vim-commentary'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/Mark'
 Bundle 'Keithbsmiley/investigate.vim'
-Bundle 'tpope/vim-fugitive' "git
+Bundle 'tpope/vim-fugitive' 
 Bundle 'SirVer/ultisnips'
+Bundle 'Chiel92/vim-autoformat'
 " Snippets 
 Bundle 'honza/vim-snippets'
 

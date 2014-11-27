@@ -17,9 +17,13 @@ $ vim
 
 ##Options   
 =======    
-[Install js-beautify](https://github.com/beautify-web/js-beautify/blob/master/README.md)
+[Install js-beautify](https://github.com/beautify-web/js-beautify/blob/master/README.md)    
+```shell
+$ npm -g install js-beautify
+```
+[vim-autoformat](https://github.com/Chiel92/vim-autoformat)  
 
-> use __,ff__ to format js!
+> use __,ff__ to format js,css,html,sql,xml and json!
 
 
 enjoy

@@ -15,11 +15,8 @@ map <C-k> :bn<cr>               "下一个文件
 map <C-j> :bp<cr>               "上一个文件
 map <Leader>fs :LustyFilesystemExplorerFromHere<CR>
 map <Leader>tb :TagbarToggle<CR>
-map <Leader>nextt :tabn<CR>
-map <Leader>prevt :tabp<CR>
 map <Leader>newt :tabnew<CR>
-map <Leader>nextb :bn<CR>
-map <Leader>prevb :bp<CR>
 map <Leader>buff :LustyBufferExplorer<CR>
+map <Leader>ff :Autoformat<CR><CR>
 
 
