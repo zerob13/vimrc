@@ -12,7 +12,8 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle "myusuf3/numbers.vim"
 let g:SuperTabDefaultCompletionType="context" 
 set guifont=Monaco:h16
-colorscheme desertedocean
+" colorscheme desertedocean
+colorscheme molokai 
 
 " AirLine settings
 let g:airline_detect_modified=1
