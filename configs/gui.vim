@@ -13,7 +13,7 @@ Bundle "myusuf3/numbers.vim"
 let g:SuperTabDefaultCompletionType="context" 
 set guifont=Monaco:h16
 " colorscheme desertedocean
-colorscheme molokai 
+colorscheme solarized 
 
 " AirLine settings
 let g:airline_detect_modified=1
