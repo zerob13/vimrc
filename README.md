@@ -9,7 +9,7 @@ Please make sure your vim has enabled python support && ruby support
 ======
 ```shell
 $ git clone https://github.com/zerob13/vimrc.git  ~/.vim
-$ git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/vundle
+$ git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 $ cp ~/.vim/.vimrc ~/.vimrc
 $ vim 
 :PluginInstall

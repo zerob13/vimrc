@@ -21,14 +21,18 @@ source ~/.vim/configs/html.vim
 catch
 endtry
 
-" go-lang
-try
-source ~/.vim/configs/go.vim
-catch
-endtry
 
 "  keys
 try
 source ~/.vim/configs/keymaps.vim
 catch
 endtry
+
+" go-lang
+try
+source ~/.vim/configs/go.vim
+catch
+endtry
+
+call vundle#end()
+filetype plugin indent on

@@ -48,22 +48,22 @@ set tags=tags;
 
 "检测文件类型
 filetype off
-" Plugins Bundle
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+" Plugins 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'sjbach/lusty'
-Bundle 'terryma/vim-multiple-cursors'
-Bundle 'tpope/vim-commentary'
-Bundle 'kien/ctrlp.vim'
-Bundle 'vim-scripts/Mark'
-Bundle 'Keithbsmiley/investigate.vim'
-Bundle 'tpope/vim-fugitive' 
-Bundle 'SirVer/ultisnips'
-Bundle 'Chiel92/vim-autoformat'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'sjbach/lusty'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-commentary'
+Plugin 'kien/ctrlp.vim'
+Plugin 'vim-scripts/Mark'
+Plugin 'Keithbsmiley/investigate.vim'
+Plugin 'tpope/vim-fugitive' 
+Plugin 'SirVer/ultisnips'
+Plugin 'Chiel92/vim-autoformat'
 " Snippets 
-Bundle 'honza/vim-snippets'
+Plugin 'honza/vim-snippets'
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
