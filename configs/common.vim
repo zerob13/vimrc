@@ -46,25 +46,6 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 set autochdir
 set tags=tags;
 
-"检测文件类型
-filetype off
-" Plugins 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
-Plugin 'sjbach/lusty'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tpope/vim-commentary'
-Plugin 'kien/ctrlp.vim'
-Plugin 'vim-scripts/Mark'
-Plugin 'Keithbsmiley/investigate.vim'
-Plugin 'tpope/vim-fugitive' 
-Plugin 'SirVer/ultisnips'
-Plugin 'Chiel92/vim-autoformat'
-" Snippets 
-Plugin 'honza/vim-snippets'
-
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 " use dash to open doc :gk

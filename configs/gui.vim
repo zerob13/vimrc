@@ -1,19 +1,13 @@
 "指定配色方案为256色
 "set t_Co=256
-set background=dark
+"set background=dark
 set laststatus=2
 "set transparency=10
 
-Bundle "bling/vim-airline"
-Bundle 'majutsushi/tagbar'
-Bundle 'flazz/vim-colorschemes'
-Bundle 'ervandew/supertab'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle "myusuf3/numbers.vim"
 let g:SuperTabDefaultCompletionType="context" 
 set guifont=Monaco:h16
 " colorscheme desertedocean
-colorscheme solarized
+colorscheme kolor
 
 " AirLine settings
 let g:airline_detect_modified=1

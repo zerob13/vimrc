@@ -1,6 +1,3 @@
-"Bundles
-Bundle 'fatih/vim-go'
-
 "config
 filetype plugin on
 filetype plugin indent off
