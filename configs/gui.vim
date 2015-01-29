@@ -3,7 +3,7 @@
 "set background=dark
 set laststatus=2
 if has('mac')
-set transparency=7
+    set transparency=7
 endif
 
 let g:SuperTabDefaultCompletionType="context" 
