@@ -2,7 +2,9 @@
 "set t_Co=256
 "set background=dark
 set laststatus=2
-"set transparency=10
+if has('mac')
+set transparency=7
+endif
 
 let g:SuperTabDefaultCompletionType="context" 
 set guifont=Monaco:h16
