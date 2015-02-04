@@ -18,5 +18,5 @@ map <Leader>tb :TagbarToggle<CR>
 map <Leader>newt :tabnew<CR>
 map <Leader>buff :LustyBufferExplorer<CR>
 map <Leader>ff :Autoformat<CR><CR>
-
+imap <C-c> <CR><Esc>O
 

@@ -8,6 +8,7 @@ Plugin 'Keithbsmiley/investigate.vim'
 Plugin 'tpope/vim-fugitive' 
 Plugin 'SirVer/ultisnips'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'Raimondi/delimitMate'
 " Snippets 
 Plugin 'honza/vim-snippets'
 " go
@@ -22,6 +23,7 @@ Plugin 'myusuf3/numbers.vim'
 " html
 Plugin 'vim-scripts/xml.vim'
 Plugin 'mattn/emmet-vim'
+Plugin 'pangloss/vim-javascript'
 " Plugin 'JulesWang/css.vim' // only necessary if your Vim version < 7.4
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'mustache/vim-mustache-handlebars'

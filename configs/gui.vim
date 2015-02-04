@@ -8,8 +8,8 @@ endif
 
 let g:SuperTabDefaultCompletionType="context" 
 set guifont=Monaco:h16
-" colorscheme desertedocean
-colorscheme kolor
+colorscheme distinguished
+" colorscheme kolor
 
 " AirLine settings
 let g:airline_detect_modified=1
