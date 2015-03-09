@@ -28,11 +28,11 @@ syntax on
 set mouse=a
 
 "设置Tab宽度
-set tabstop=4
+set tabstop=2
 "设置自动对齐空格数
-set shiftwidth=4
+set shiftwidth=2
 "设置按退格键时可以一次删除4个空格
-set softtabstop=4
+set softtabstop=2
 "设置按退格键时可以一次删除4个空格
 set smarttab
 "将Tab键自动转换成空格 真正需要Tab键时使用[Ctrl + V + Tab]
