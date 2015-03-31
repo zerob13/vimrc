@@ -1,12 +1,11 @@
 # vimrc
----
 
 My Vim rc file
 Support GO/HTML/SASS/JS
 Please make sure your vim has enabled python support && ruby support
 
 ## How to install
----
+
 ### Auto Install
 
 ```shell
@@ -15,7 +14,7 @@ curl -fsSL https://raw.githubusercontent.com/zerob13/vimrc/master/install.sh | b
 
 
 ### Manual Install
----
+
 ```shell
 git clone https://github.com/zerob13/vimrc.git  ~/.vim
 git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
@@ -24,7 +23,6 @@ vim -c 'PluginInstall' -c 'q' -c 'q'
 ```
 
 ## Options (requires node.js)
----
 
 ### Auto Install Options
 
