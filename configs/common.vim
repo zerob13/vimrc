@@ -51,3 +51,6 @@ let g:UltiSnipsEditSplit="vertical"
 " use dash to open doc :gk
 let g:investigate_use_dash=1
 
+au BufNewFile,BufRead *.es6 set filetype=javascript
+au BufNewFile,BufRead *.mst set filetype=html
+
