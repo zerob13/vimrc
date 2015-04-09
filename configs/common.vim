@@ -27,20 +27,19 @@ syntax on
 "设置在Vim中可以使用鼠标 防止在Linux终端下无法拷贝
 set mouse=a
 
-"设置Tab宽度
+"Tab=2
 set tabstop=2
-"设置自动对齐空格数
 set shiftwidth=2
-"设置按退格键时可以一次删除4个空格
+"2 space = 1 tab
 set softtabstop=2
-"设置按退格键时可以一次删除4个空格
+
 set smarttab
-"将Tab键自动转换成空格 真正需要Tab键时使用[Ctrl + V + Tab]
+"make tab as space,use [Ctrl + V + Tab] to add tab
 set expandtab
 
-"设置编码方式
+"default encoding
 set encoding=utf-8
-"自动判断编码时 依次尝试一下编码
+"automatic test encoding
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 set autochdir
@@ -50,7 +49,7 @@ set tags=tags;
 let g:UltiSnipsEditSplit="vertical"
 " use dash to open doc :gk
 let g:investigate_use_dash=1
-
+" add some filetype support
 au BufNewFile,BufRead *.es6 set filetype=javascript
 au BufNewFile,BufRead *.mst set filetype=html
 
