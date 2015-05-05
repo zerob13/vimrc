@@ -9,6 +9,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'SirVer/ultisnips'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'Raimondi/delimitMate'
+Plugin 'rking/ag.vim'
 " Snippets 
 Plugin 'honza/vim-snippets'
 " go
