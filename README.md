@@ -1,4 +1,4 @@
-# vimrc
+# Zerob13's Vim config 
 
 My Vim rc file
 
