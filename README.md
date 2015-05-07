@@ -1,8 +1,13 @@
 # vimrc
 
 My Vim rc file
+
+![render](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/render.png)
+
 Support GO/HTML/SASS/JS
 Please make sure your vim has enabled python support && ruby support
+
+![Screenshot](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/config.png)
 
 ## How to install
 
@@ -48,3 +53,43 @@ npm install -g git://github.com/ramitos/jsctags.git
 > use __,ff__ to format js,css,html,sql,xml and json!
 
 enjoy
+
+## ScreenShots
+
+### Autocomplete
+
+![autocomplete](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/autocomplete.gif)
+
+### Code Format
+
+![format](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/autoformat.gif)
+
+### Color themes
+
+![themes](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/colortheme.gif)
+
+### Ctrl-P 
+
+![ctrl-p](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/ctrl-p.gif)
+
+### Multiple-cursors
+
+![multiple-cursors](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/multi-select.gif)
+
+### HTML 
+
+![HTML](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/html.gif)
+
+### Git
+
+![Git](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/git.gif)
+
+### Smart Line Number
+
+![Number](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/number.gif)
+
+### Tagbar
+
+![Tagbar](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/tagbar.gif)
+
+
