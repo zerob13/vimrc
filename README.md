@@ -9,6 +9,8 @@ Please make sure your vim has enabled python support && ruby support
 
 ![Screenshot](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/config.png)
 
+![license](https://img.shields.io/badge/license-wtfpl-blue.svg)
+
 ## How to install
 
 ### Auto Install
