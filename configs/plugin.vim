@@ -34,4 +34,5 @@ Plugin 'AndrewRadev/vim-eco'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'mustache/vim-mustache-handlebars'
 
-
+let g:formatprg_coffee = "coffeeformat"
+let g:formatprg_args_cs = ""
