@@ -33,6 +33,8 @@ Plugin 'AndrewRadev/vim-eco'
 " Plugin 'JulesWang/css.vim' // only necessary if your Vim version < 7.4
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'mustache/vim-mustache-handlebars'
+" Docker
+Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
 
 let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
