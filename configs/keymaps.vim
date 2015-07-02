@@ -20,4 +20,4 @@ map <Leader>buff :LustyBufferExplorer<CR>
 map <Leader>ff :Autoformat<CR><CR>
 map <Leader>csw :CoffeeWatch<CR><CR>
 imap <C-c> <CR><Esc>O
-
+nmap <silent> <leader>da <Plug>DashGlobalSearch

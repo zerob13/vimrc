@@ -35,6 +35,8 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'mustache/vim-mustache-handlebars'
 " Docker
 Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
+" Dash Mac only
+Plugin 'rizzatti/dash.vim'
 
 let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
