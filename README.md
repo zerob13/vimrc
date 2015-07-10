@@ -49,7 +49,7 @@ npm -g install js-beautify
 go get -u github.com/jstemmer/gotags
 cd ~/.vim/bundle/tern_for_vim
 npm install
-npm install -g git://github.com/ramitos/jsctags.git
+npm install -g http://github.com/ramitos/jsctags.git
 ```
 
 > use __,ff__ to format js,css,html,sql,xml and json!
