@@ -24,7 +24,6 @@ Plugin 'myusuf3/numbers.vim'
 " html
 Plugin 'vim-scripts/xml.vim'
 Plugin 'mattn/emmet-vim'
-Plugin 'leafgarland/typescript-vim'
 " Plugin 'pangloss/vim-javascript'
 Plugin 'othree/yajs.vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
