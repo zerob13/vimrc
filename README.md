@@ -5,6 +5,7 @@ My Vim rc file
 ![render](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/render.png)
 
 Support GO/HTML/SASS/JS
+Requires Vim 7.3.885+ with Lua enabled
 Please make sure your vim has enabled python support && ruby support
 
 ![Screenshot](https://raw.githubusercontent.com/zerob13/vimrc/master/screenshots/config.png)

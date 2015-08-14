@@ -10,6 +10,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'Raimondi/delimitMate'
 Plugin 'rking/ag.vim'
+Plugin 'Shougo/neocomplete.vim'
 " Snippets 
 Plugin 'honza/vim-snippets'
 " go
@@ -21,6 +22,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'ervandew/supertab'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'myusuf3/numbers.vim'
+Plugin 'scrooloose/nerdtree.git'
 " html
 Plugin 'vim-scripts/xml.vim'
 Plugin 'mattn/emmet-vim'
@@ -37,8 +39,10 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
 " Dash Mac only
 Plugin 'rizzatti/dash.vim'
+" TypeScript
 Plugin 'tmhedberg/matchit'
 Plugin 'leafgarland/typescript-vim'
 
 let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
+let g:neocomplete#enable_at_startup = 1
