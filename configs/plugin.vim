@@ -46,3 +46,14 @@ Plugin 'leafgarland/typescript-vim'
 let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
 let g:neocomplete#enable_at_startup = 1
+
+
+function! Multiple_cursors_before()
+    exe 'NeoCompleteLock'
+    echo 'Disabled autocomplete'
+endfunction
+
+function! Multiple_cursors_after()
+    exe 'NeoCompleteUnlock'
+    echo 'Enabled autocomplete'
+endfunction
