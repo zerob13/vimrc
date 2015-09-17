@@ -52,6 +52,8 @@ let g:investigate_use_dash=1
 " add some filetype support
 au BufNewFile,BufRead *.es6 set filetype=javascript
 au BufNewFile,BufRead *.mst set filetype=html
+au BufNewFile,BufRead *.dot set filetype=html
+au BufNewFile,BufRead *.vue set filetype=html
 
 set foldmethod=indent
 set nofoldenable
