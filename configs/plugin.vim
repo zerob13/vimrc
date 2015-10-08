@@ -29,9 +29,9 @@ Plugin 'mattn/emmet-vim'
 " Plugin 'pangloss/vim-javascript'
 Plugin 'othree/yajs.vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
-Plugin 'marijnh/tern_for_vim'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'AndrewRadev/vim-eco'
+"Plugin 'marijnh/tern_for_vim'
+"Plugin 'kchmck/vim-coffee-script'
+"Plugin 'AndrewRadev/vim-eco'
 " Plugin 'JulesWang/css.vim' // only necessary if your Vim version < 7.4
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'mustache/vim-mustache-handlebars'
@@ -45,7 +45,7 @@ Plugin 'rizzatti/dash.vim'
 Plugin 'tmhedberg/matchit'
 Plugin 'leafgarland/typescript-vim'
 
-let g:formatprg_coffee = "coffeeformat"
+"let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
 let g:neocomplete#enable_at_startup = 1
 
