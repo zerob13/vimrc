@@ -36,6 +36,7 @@ Plugin 'AndrewRadev/vim-eco'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'darthmall/vim-vue'
+Plugin 'gorodinskiy/vim-coloresque'
 " Docker
 Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
 " Dash Mac only
