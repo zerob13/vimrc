@@ -10,7 +10,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'Raimondi/delimitMate'
 Plugin 'rking/ag.vim'
-Plugin 'Shougo/neocomplete.vim'
+"Plugin 'Shougo/neocomplete.vim'
 " Snippets 
 Plugin 'honza/vim-snippets'
 " go
@@ -50,12 +50,12 @@ let g:formatprg_args_cs = ""
 let g:neocomplete#enable_at_startup = 1
 
 
-function! Multiple_cursors_before()
-    exe 'NeoCompleteLock'
-    echo 'Disabled autocomplete'
-endfunction
+" function! Multiple_cursors_before()
+"     exe 'NeoCompleteLock'
+"     echo 'Disabled autocomplete'
+" endfunction
 
-function! Multiple_cursors_after()
-    exe 'NeoCompleteUnlock'
-    echo 'Enabled autocomplete'
-endfunction
+" function! Multiple_cursors_after()
+"     exe 'NeoCompleteUnlock'
+"     echo 'Enabled autocomplete'
+" endfunction
