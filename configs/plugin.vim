@@ -40,10 +40,10 @@ Plugin 'darthmall/vim-vue'
 " Docker
 Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
 " Dash Mac only
-Plugin 'rizzatti/dash.vim'
+"Plugin 'rizzatti/dash.vim'
 " TypeScript
-Plugin 'tmhedberg/matchit'
-Plugin 'leafgarland/typescript-vim'
+"Plugin 'tmhedberg/matchit'
+"Plugin 'leafgarland/typescript-vim'
 
 "let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
