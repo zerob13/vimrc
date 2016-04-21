@@ -38,7 +38,8 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'darthmall/vim-vue'
 "Plugin 'gorodinskiy/vim-coloresque'
 " Docker
-Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
+"Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
+Plugin 'ekalinin/Dockerfile.vim'
 " Dash Mac only
 "Plugin 'rizzatti/dash.vim'
 " TypeScript
