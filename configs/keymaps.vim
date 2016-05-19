@@ -23,3 +23,15 @@ map <Leader>ff :Autoformat<CR><CR>
 map <Leader>file :NERDTreeToggle<CR><CR>
 imap <C-c> <CR><Esc>O
 nmap <silent> <leader>da <Plug>DashGlobalSearch
+map <Leader>bn :bNext<CR>
+map <Leader>bb :bprevious<CR>
+map <Leader>bw :bdelete<CR>
+
+fu! Splitme(...)
+  execute 'sp'
+  execute 'vsp'
+  execute 'wincmd j'
+  execute 'vsp'
+endfunction
+
+map <Leader>pp :execute Splitme()<CR>
