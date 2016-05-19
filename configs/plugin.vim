@@ -17,6 +17,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'fatih/vim-go'
 " gui
 Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'majutsushi/tagbar'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ervandew/supertab'
