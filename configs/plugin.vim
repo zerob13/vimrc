@@ -38,6 +38,7 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'mustache/vim-mustache-handlebars'
 " Plugin 'darthmall/vim-vue'
 Plugin 'posva/vim-vue'
+Plugin 'mxw/vim-jsx'
 "Plugin 'gorodinskiy/vim-coloresque'
 " Docker
 "Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
