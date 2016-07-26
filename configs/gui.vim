@@ -54,3 +54,5 @@ let g:indent_guides_guide_size=1
 set guioptions=T
 set cursorline
 set cursorcolumn
+
+let g:jsx_ext_required =0
