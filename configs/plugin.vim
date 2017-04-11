@@ -39,6 +39,7 @@ Plugin 'mustache/vim-mustache-handlebars'
 " Plugin 'darthmall/vim-vue'
 Plugin 'posva/vim-vue'
 Plugin 'mxw/vim-jsx'
+Plugin 'digitaltoad/vim-pug'
 "Plugin 'gorodinskiy/vim-coloresque'
 " Docker
 "Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
