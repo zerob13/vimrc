@@ -55,5 +55,5 @@ au BufNewFile,BufRead *.mst set filetype=html
 au BufNewFile,BufRead *.dot set filetype=html
 au BufNewFile,BufRead *.vue set filetype=html
 
-set foldmethod=indent
+set foldmethod=syntax
 set nofoldenable
