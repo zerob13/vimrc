@@ -7,7 +7,7 @@ if has('mac')
 endif
 
 let g:SuperTabDefaultCompletionType="context" 
-set guifont=DejaVu\ Sans\ Mono\ 14
+set guifont=DejaVu\ Sans\ Mono\ 15
 " colorscheme distinguished
 " colorscheme kolor
 colorscheme molokai
