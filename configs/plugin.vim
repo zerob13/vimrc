@@ -53,6 +53,9 @@ Plugin 'ekalinin/Dockerfile.vim'
 "let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
 let g:neocomplete#enable_at_startup = 1
+let g:formatdef_pug_beautifier = "'pug-beautifier -s 2'"
+let g:formatters_pug = ['pug_beautifier']
+autocmd FileType pug let b:autoformat_autoindent=0
 
 
 " function! Multiple_cursors_before()
