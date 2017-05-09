@@ -49,6 +49,8 @@ Plugin 'ekalinin/Dockerfile.vim'
 " TypeScript
 "Plugin 'tmhedberg/matchit'
 "Plugin 'leafgarland/typescript-vim'
+"rest
+Plugin 'diepm/vim-rest-console'
 
 "let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
