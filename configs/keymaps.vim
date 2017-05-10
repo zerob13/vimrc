@@ -9,9 +9,9 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 nmap <C-o> :TagbarToggle<CR>
 nmap <F8> :LustyFilesystemExplorerFromHere<CR>
 nmap <F9> :NERDTreeToggle<CR>
-map <C-l> :tabn<cr>             "下一个tab
-map <C-h> :tabp<cr>             "上一个tab
-map <C-n> :tabnew<cr>           "新tab
+" map <C-l> :tabn<cr>             "下一个tab
+" map <C-h> :tabp<cr>             "上一个tab
+" map <C-n> :tabnew<cr>           "新tab
 map <C-k> :bn<cr>               "下一个文件
 map <C-j> :bp<cr>               "上一个文件
 map <Leader>fs :LustyFilesystemExplorerFromHere<CR>
