@@ -49,11 +49,15 @@ Plugin 'ekalinin/Dockerfile.vim'
 " TypeScript
 "Plugin 'tmhedberg/matchit'
 "Plugin 'leafgarland/typescript-vim'
-"pug-beautifier
+"rest
+Plugin 'diepm/vim-rest-console'
+
+"let g:formatprg_coffee = "coffeeformat"
+let g:formatprg_args_cs = ""
+let g:neocomplete#enable_at_startup = 1
 let g:formatdef_pug_beautifier = "'pug-beautifier -s 2'"
 let g:formatters_pug = ['pug_beautifier']
 autocmd FileType pug let b:autoformat_autoindent=0
-let g:neocomplete#enable_at_startup = 1
 
 
 " function! Multiple_cursors_before()

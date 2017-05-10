@@ -7,10 +7,11 @@ if has('mac')
 endif
 
 let g:SuperTabDefaultCompletionType="context" 
-set guifont=Monaco:h14
+set guifont=Monaco:h16
 " colorscheme distinguished
 " colorscheme kolor
-colorscheme molokai
+" colorscheme molokai
+colorscheme atom
 
 " AirLine settings
 let g:airline_detect_modified=1
