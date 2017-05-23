@@ -11,7 +11,13 @@ set guifont=Monaco:h16
 " colorscheme distinguished
 " colorscheme kolor
 " colorscheme molokai
-colorscheme atom
+" colorscheme badwolf
+if has('gui_running')
+  colorscheme material-theme
+else
+  colorscheme badwolf
+endif
+
 
 " AirLine settings
 let g:airline_detect_modified=1
