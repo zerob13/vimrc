@@ -11,7 +11,8 @@ set guifont=Inconsolata\ 16
 " colorscheme distinguished
 " colorscheme kolor
 " colorscheme molokai
-colorscheme badwolf
+" colorscheme badwolf
+colorscheme material-theme
 
 " AirLine settings
 let g:airline_detect_modified=1
