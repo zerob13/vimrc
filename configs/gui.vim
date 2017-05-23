@@ -2,12 +2,13 @@
 "set t_Co=256
 "set background=dark
 set laststatus=2
+set guifont=Inconsolata\ 16
 if has('mac')
     set transparency=7
+    set guifont=Monaco:h16
 endif
 
 let g:SuperTabDefaultCompletionType="context" 
-set guifont=Monaco:h16
 " colorscheme distinguished
 " colorscheme kolor
 " colorscheme molokai
