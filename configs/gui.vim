@@ -13,7 +13,7 @@ set guifont=Inconsolata\ 16
 " colorscheme molokai
 " colorscheme badwolf
 if has('gui_running')
-  colorscheme material-theme
+  colorscheme materialtheme
 else
   colorscheme badwolf
 endif
