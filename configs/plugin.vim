@@ -52,6 +52,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 "Plugin 'leafgarland/typescript-vim'
 "rest
 Plugin 'diepm/vim-rest-console'
+Plugin 'easymotion/vim-easymotion'
 
 "let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
