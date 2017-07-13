@@ -15,6 +15,8 @@ Plugin 'rking/ag.vim'
 Plugin 'honza/vim-snippets'
 " go
 Plugin 'fatih/vim-go'
+" python
+Plugin 'klen/python-mode'
 " gui
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
