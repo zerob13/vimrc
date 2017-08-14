@@ -14,7 +14,7 @@ let g:SuperTabDefaultCompletionType="context"
 " colorscheme molokai
 " colorscheme badwolf
 if has('gui_running')
-  colorscheme materialtheme
+  colorscheme molokai
 else
   colorscheme badwolf
 endif
