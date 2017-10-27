@@ -8,6 +8,7 @@ Plugin 'vim-scripts/Mark'
 Plugin 'tpope/vim-fugitive'
 "Plugin 'SirVer/ultisnips'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'w0rp/ale'
 Plugin 'Raimondi/delimitMate'
 Plugin 'rking/ag.vim'
 "Plugin 'Shougo/neocomplete.vim'
@@ -56,7 +57,11 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'diepm/vim-rest-console'
 Plugin 'easymotion/vim-easymotion'
 
-"let g:formatprg_coffee = "coffeeformat"
+let g:ale_fix_on_save = 1
+let g:ale_linter_aliases={'vue': ['html', 'css', 'scss', 'javascript']}
+let g:ale_linters = {'vue':['eslint']}
+let g:ale_fixers = {'vue':['eslint']}
+let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
 let g:neocomplete#enable_at_startup = 1
 let g:formatdef_pug_beautifier = "'pug-beautifier -s 2'"

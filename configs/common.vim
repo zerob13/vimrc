@@ -1,4 +1,4 @@
-"关闭vi的一致性模式 避免以前版本的一些Bug和局限
+""关闭vi的一致性模式 避免以前版本的一些Bug和局限
 set nocompatible
 "配置backspace键工作方式
 set backspace=indent,eol,start
@@ -53,8 +53,8 @@ let g:investigate_use_dash=1
 au BufNewFile,BufRead *.es6 set filetype=javascript
 au BufNewFile,BufRead *.mst set filetype=html
 au BufNewFile,BufRead *.dot set filetype=html
-autocmd FileType vue syntax sync fromstart
-autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
+"autocmd FileType vue syntax sync fromstart
+"autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
 
 set foldmethod=syntax
 set nofoldenable
