@@ -7,8 +7,9 @@ Plugin 'vim-scripts/Mark'
 "Plugin 'Keithbsmiley/investigate.vim'
 Plugin 'tpope/vim-fugitive'
 "Plugin 'SirVer/ultisnips'
-Plugin 'Chiel92/vim-autoformat'
+" Plugin 'Chiel92/vim-autoformat'
 Plugin 'w0rp/ale'
+Plugin 'sbdchd/neoformat'
 Plugin 'Raimondi/delimitMate'
 Plugin 'rking/ag.vim'
 "Plugin 'Shougo/neocomplete.vim'
@@ -57,17 +58,20 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'diepm/vim-rest-console'
 Plugin 'easymotion/vim-easymotion'
 
-let g:ale_fix_on_save = 1
-let g:ale_linter_aliases={'vue': ['html', 'css', 'scss', 'javascript']}
-let g:ale_linters = {'vue':['eslint']}
-let g:ale_fixers = {'vue':['eslint']}
-let g:formatprg_coffee = "coffeeformat"
-let g:formatprg_args_cs = ""
 let g:neocomplete#enable_at_startup = 1
-let g:formatdef_pug_beautifier = "'pug-beautifier -s 2'"
-let g:formatters_pug = ['pug_beautifier']
-let g:formatters_javascript_jsx= ['jsbeautify_javascript']
-autocmd FileType pug let b:autoformat_autoindent=0
+let g:neoformat_enabled_vue = ['prettier']
+let g:ale_fix_on_save = 1
+let g:ale_linter_aliases={'vue.html.javascript.css': ['html', 'css', 'scss', 'javascript']}
+let g:ale_linters = {'vue.html.javascript.css':['eslint'],'javascript':['eslint'],'html':[],'css':[],'scss':[]}
+let g:ale_fixers = {'vue.html.javascript.css':['eslint'],'javascript':['eslint'],'html':[],'css':[],'pug':['trim_whitespace']}
+" let g:formatprg_coffee = "coffeeformat"
+" let g:formatprg_args_cs = ""
+" let g:formatdef_pug_beautifier = "'pug-beautifier -s 2'"
+" let g:formatters_pug = ['pug_beautifier']
+" let g:formatters_javascript_jsx= ['eslint_local']
+" let g:formatters_vue_html_javascript_css= ['eslint_local']
+" autocmd FileType pug let b:autoformat_autoindent=0
+"autocmd FileType vue let b:autoformat_autoindent = 0
 
 
 " function! Multiple_cursors_before()

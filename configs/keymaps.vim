@@ -18,13 +18,22 @@ map <Leader>fs :LustyFilesystemExplorerFromHere<CR>
 map <Leader>tb :TagbarToggle<CR>
 map <Leader>newt :tabnew<CR>
 map <Leader>buff :LustyBufferExplorer<CR>
-map <Leader>ff :Autoformat<CR><CR>
+" map <Leader>ff :Autoformat<CR><CR>
+map <Leader>ff :Neoformat<CR><CR>
 map <Leader>t :NERDTreeToggle<CR>
 imap <C-c> <CR><Esc>O
 nmap <silent> <leader>da <Plug>DashGlobalSearch
 map <Leader>bn :bNext<CR>
 map <Leader>bb :bprevious<CR>
 map <Leader>bw :bdelete<CR>
+
+augroup vimrc
+  au FileType vue         noremap  <buffer> <leader>ff :ALEFix<CR>
+  au FileType javascript  noremap  <buffer> <leader>ff :ALEFix<CR>
+  au FileType json        noremap  <buffer> <leader>ff :Neoformat! json prettier<CR>
+  au FileType css         noremap  <buffer> <leader>ff :Neoformat! css prettier<CR>
+  au FileType scss        noremap  <buffer> <leader>ff :Neoformat! css prettier<CR>
+augroup END
 
 fu! Splitme(...)
   execute 'sp'
