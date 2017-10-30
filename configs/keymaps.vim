@@ -26,10 +26,12 @@ nmap <silent> <leader>da <Plug>DashGlobalSearch
 map <Leader>bn :bNext<CR>
 map <Leader>bb :bprevious<CR>
 map <Leader>bw :bdelete<CR>
+map <Leader>fh :Neoformat! html<CR>
+map <Leader>fc :Neoformat! css prettier<CR>
 
 augroup vimrc
   au FileType vue         noremap  <buffer> <leader>ff :ALEFix<CR>
-  au FileType javascript  noremap  <buffer> <leader>ff :ALEFix<CR>
+  au FileType javascript  noremap  <buffer> <leader>ff :Neoformat! javascript prettier<CR>
   au FileType json        noremap  <buffer> <leader>ff :Neoformat! json prettier<CR>
   au FileType css         noremap  <buffer> <leader>ff :Neoformat! css prettier<CR>
   au FileType scss        noremap  <buffer> <leader>ff :Neoformat! css prettier<CR>

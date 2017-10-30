@@ -61,9 +61,10 @@ Plugin 'easymotion/vim-easymotion'
 let g:neocomplete#enable_at_startup = 1
 let g:neoformat_enabled_vue = ['prettier']
 let g:ale_fix_on_save = 1
-let g:ale_linter_aliases={'vue.html.javascript.css': ['html', 'css', 'scss', 'javascript']}
-let g:ale_linters = {'vue.html.javascript.css':['eslint'],'javascript':['eslint'],'html':[],'css':[],'scss':[]}
-let g:ale_fixers = {'vue.html.javascript.css':['eslint'],'javascript':['eslint'],'html':[],'css':[],'pug':['trim_whitespace']}
+" let g:ale_linter_aliases={'vue.html.javascript.css': ['html', 'css', 'scss', 'javascript']}
+" let g:ale_linter_aliases.vue = 'html.css.scss.javascript'
+let g:ale_linters = {'vue':['eslint'],'javascript':['eslint'],'html':[],'css':[],'scss':[]}
+let g:ale_fixers = {'vue':['eslint'],'javascript':['eslint'],'html':[],'css':[],'pug':['trim_whitespace']}
 " let g:formatprg_coffee = "coffeeformat"
 " let g:formatprg_args_cs = ""
 " let g:formatdef_pug_beautifier = "'pug-beautifier -s 2'"
