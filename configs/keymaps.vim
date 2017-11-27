@@ -20,6 +20,7 @@ map <Leader>newt :tabnew<CR>
 map <Leader>buff :LustyBufferExplorer<CR>
 " map <Leader>ff :Autoformat<CR><CR>
 map <Leader>ff :Neoformat<CR><CR>
+map <Leader>fjs :Neoformat! javascript jsbeautify<CR><CR>
 map <Leader>t :NERDTreeToggle<CR>
 imap <C-c> <CR><Esc>O
 nmap <silent> <leader>da <Plug>DashGlobalSearch
