@@ -20,7 +20,9 @@ map <Leader>newt :tabnew<CR>
 map <Leader>buff :LustyBufferExplorer<CR>
 " map <Leader>ff :Autoformat<CR><CR>
 map <Leader>ff :Neoformat<CR><CR>
-map <Leader>fjs :Neoformat! javascript jsbeautify<CR><CR>
+map <Leader>fjs :Neoformat! javascript standard<CR><CR>
+map <Leader>fpug :Neoformat! jade<CR><CR>
+map <Leader>fscss :Neoformat! scss<CR><CR>
 map <Leader>t :NERDTreeToggle<CR>
 imap <C-c> <CR><Esc>O
 nmap <silent> <leader>da <Plug>DashGlobalSearch
@@ -30,8 +32,14 @@ map <Leader>bw :bdelete<CR>
 map <Leader>fh :Neoformat! html<CR>
 map <Leader>fc :Neoformat! css prettier<CR>
 
+fu! FormatVue(...)
+  execute '/<script>/+1,/<\/script>/-1 Neoformat! javascript standard'
+  " execute '/<template>/+1,/<\/template>/-1 !js-beautify --stdin'
+  " execute '/<template lang="pug">/+1,/<\/template>/-1 !pug-beautifier -s 2 --stdin'
+endfunction
+
 augroup vimrc
-  au FileType vue         noremap  <buffer> <leader>ff :ALEFix<CR>
+  au FileType vue         noremap  <buffer> <leader>ff :execute FormatVue()<CR>
   au FileType javascript  noremap  <buffer> <leader>ff :Neoformat! javascript jsbeautify<CR>
   au FileType json        noremap  <buffer> <leader>ff :Neoformat! json prettier<CR>
   au FileType css         noremap  <buffer> <leader>ff :Neoformat! css prettier<CR>
