@@ -40,7 +40,7 @@ endfunction
 
 augroup vimrc
   au FileType vue         noremap  <buffer> <leader>ff :execute FormatVue()<CR>
-  au FileType javascript  noremap  <buffer> <leader>ff :Neoformat! javascript jsbeautify<CR>
+  au FileType javascript  noremap  <buffer> <leader>ff :Neoformat! javascript standard<CR>
   au FileType json        noremap  <buffer> <leader>ff :Neoformat! json prettier<CR>
   au FileType css         noremap  <buffer> <leader>ff :Neoformat! css prettier<CR>
   au FileType scss        noremap  <buffer> <leader>ff :Neoformat! scss<CR>
