@@ -63,4 +63,4 @@ set guioptions=T
 set cursorline
 set cursorcolumn
 
-let g:jsx_ext_required =0
+let g:jsx_ext_required = 1

@@ -21,6 +21,7 @@ map <Leader>buff :LustyBufferExplorer<CR>
 " map <Leader>ff :Autoformat<CR><CR>
 map <Leader>ff :Neoformat<CR><CR>
 map <Leader>fjs :Neoformat! javascript standard<CR><CR>
+map <Leader>fjp :Neoformat! javascript jsbeautify<CR><CR>
 map <Leader>fpug :Neoformat! jade<CR><CR>
 map <Leader>fscss :Neoformat! scss<CR><CR>
 map <Leader>t :NERDTreeToggle<CR>
@@ -40,7 +41,7 @@ endfunction
 
 augroup vimrc
   au FileType vue         noremap  <buffer> <leader>ff :execute FormatVue()<CR>
-  au FileType javascript  noremap  <buffer> <leader>ff :Neoformat! javascript standard<CR>
+  au FileType javascript.jsx  noremap  <buffer> <leader>ff :Neoformat! javascript standard<CR>
   au FileType json        noremap  <buffer> <leader>ff :Neoformat! json prettier<CR>
   au FileType css         noremap  <buffer> <leader>ff :Neoformat! css prettier<CR>
   au FileType scss        noremap  <buffer> <leader>ff :Neoformat! scss<CR>
