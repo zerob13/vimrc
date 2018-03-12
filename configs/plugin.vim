@@ -8,8 +8,9 @@ Plugin 'vim-scripts/Mark'
 Plugin 'tpope/vim-fugitive'
 "Plugin 'SirVer/ultisnips'
 " Plugin 'Chiel92/vim-autoformat'
-Plugin 'w0rp/ale'
+" Plugin 'w0rp/ale'
 Plugin 'sbdchd/neoformat'
+Plugin 'prettier/vim-prettier'
 Plugin 'Raimondi/delimitMate'
 Plugin 'rking/ag.vim'
 "Plugin 'Shougo/neocomplete.vim'
@@ -60,11 +61,11 @@ Plugin 'easymotion/vim-easymotion'
 
 let g:neocomplete#enable_at_startup = 1
 let g:neoformat_enabled_vue = ['prettier']
-let g:ale_fix_on_save = 1
+" let g:ale_fix_on_save = 1
 " let g:ale_linter_aliases={'vue.html.javascript.css': ['html', 'css', 'scss', 'javascript']}
 " let g:ale_linter_aliases.vue = 'html.css.scss.javascript'
-let g:ale_linters = {'vue':['eslint'],'javascript':['eslint'],'html':[],'css':[],'scss':[]}
-let g:ale_fixers = {'vue':['eslint'],'javascript':['eslint'],'html':[],'css':[],'pug':['trim_whitespace']}
+" let g:ale_linters = {'vue':['eslint'],'javascript':['eslint'],'html':[],'css':[],'scss':[]}
+" let g:ale_fixers = {'vue':['eslint'],'javascript':['eslint'],'html':[],'css':[],'pug':['trim_whitespace']}
 " let g:formatprg_coffee = "coffeeformat"
 " let g:formatprg_args_cs = ""
 " let g:formatdef_pug_beautifier = "'pug-beautifier -s 2'"
@@ -101,3 +102,7 @@ let g:NERDTreeIndicatorMapCustom = {
       \ "Clean"     : "✔︎",
       \ "Unknown"   : "?"
       \ }
+
+let g:prettier#config#single_quote = 'true'
+let g:prettier#config#semi = 'false'
+let g:prettier#config#trailing_comma = 'none'

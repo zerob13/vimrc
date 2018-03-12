@@ -40,11 +40,12 @@ fu! FormatVue(...)
 endfunction
 
 augroup vimrc
-  au FileType vue         noremap  <buffer> <leader>ff :execute FormatVue()<CR>
-  au FileType javascript.jsx  noremap  <buffer> <leader>ff :Neoformat! javascript standard<CR>
-  au FileType json        noremap  <buffer> <leader>ff :Neoformat! json prettier<CR>
-  au FileType css         noremap  <buffer> <leader>ff :Neoformat! css prettier<CR>
-  au FileType scss        noremap  <buffer> <leader>ff :Neoformat! scss<CR>
+  au FileType vue         noremap  <buffer> <leader>ff :Prettier<CR>
+  au FileType javascript.jsx  noremap  <buffer> <leader>ff :Prettier<CR>
+  au FileType json        noremap  <buffer> <leader>ff :Prettier<CR>
+  au FileType css         noremap  <buffer> <leader>ff :Prettier<CR>
+  au FileType scss        noremap  <buffer> <leader>ff :Prettier<CR>
+  " au FileType vue         noremap  <buffer> <leader>ff :Prettier<CR>
 augroup END
 
 fu! Splitme(...)
