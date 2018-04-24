@@ -58,6 +58,8 @@ Plugin 'ekalinin/Dockerfile.vim'
 "rest
 Plugin 'diepm/vim-rest-console'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'sekel/vim-vue-syntastic'
 
 let g:neocomplete#enable_at_startup = 1
 let g:neoformat_enabled_vue = ['prettier']
@@ -106,3 +108,24 @@ let g:NERDTreeIndicatorMapCustom = {
 let g:prettier#config#single_quote = 'true'
 let g:prettier#config#semi = 'false'
 let g:prettier#config#trailing_comma = 'none'
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 0
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+let g:syntastic_mode_map = {
+        \ "mode": "active",
+        \ "active_filetypes": ["ruby", "php"],
+        \ "passive_filetypes": ["vue","javascript"] }
+
+let local_eslint = finddir('node_modules', '.;') . '/.bin/eslint'
+if matchstr(local_eslint, "^\/\\w") == ''
+    let local_eslint = getcwd() . "/" . local_eslint
+endif
+if executable(local_eslint)
+    let g:syntastic_javascript_eslint_exec = local_eslint
+    let g:syntastic_vue_eslint_exec = local_eslint
+endif

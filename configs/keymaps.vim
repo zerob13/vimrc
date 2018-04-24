@@ -34,13 +34,14 @@ map <Leader>fh :Neoformat! html<CR>
 map <Leader>fc :Neoformat! css prettier<CR>
 
 fu! FormatVue(...)
-  execute '/<script>/+1,/<\/script>/-1 Neoformat! javascript standard'
-  " execute '/<template>/+1,/<\/template>/-1 !js-beautify --stdin'
+  " execute '/<script>/+1,/<\/script>/-1 Neoformat! javascript standard'
+  execute '/<template>/+1,/<\/template>/-1 Neoformat! html'
+  execute 'SyntasticCheck'
   " execute '/<template lang="pug">/+1,/<\/template>/-1 !pug-beautifier -s 2 --stdin'
 endfunction
 
 augroup vimrc
-  au FileType vue         noremap  <buffer> <leader>ff :Prettier<CR>
+  au FileType vue         noremap  <buffer> <leader>ff :execute FormatVue()<CR>
   au FileType javascript.jsx  noremap  <buffer> <leader>ff :Prettier<CR>
   au FileType json        noremap  <buffer> <leader>ff :Prettier<CR>
   au FileType css         noremap  <buffer> <leader>ff :Prettier<CR>
