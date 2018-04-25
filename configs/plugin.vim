@@ -13,7 +13,7 @@ Plugin 'sbdchd/neoformat'
 Plugin 'prettier/vim-prettier'
 Plugin 'Raimondi/delimitMate'
 Plugin 'rking/ag.vim'
-"Plugin 'Shougo/neocomplete.vim'
+Plugin 'Shougo/neocomplete.vim'
 " Snippets
 Plugin 'honza/vim-snippets'
 " go
