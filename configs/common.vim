@@ -3,7 +3,7 @@ set nocompatible
 "配置backspace键工作方式
 set backspace=indent,eol,start
 "设置历史记录条数
-set history=1000
+set history=50
 "设置取消备份 禁止临时文件生成
 set nobackup
 set noswapfile

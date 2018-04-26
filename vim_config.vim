@@ -12,21 +12,21 @@
 "    \__/     |__| |__|  |__|     \______| \______/  |__| \__| |__|     |__|  \______|  \______/  | _| `._____|_______|
                                                                                                                       
 filetype off
-" Plugins 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-try
-    source ~/.vim/configs/plugin.vim
-catch
-endtry
-call vundle#end()
-filetype plugin indent on
-
 "  common settings
 try
     source ~/.vim/configs/common.vim
 catch
 endtry
+" Plugins 
+try
+    call plug#begin('~/.vim/plugged')
+    source ~/.vim/configs/plugin.vim
+    call plug#end()
+catch
+endtry
+
+filetype plugin indent on
+
 
 if has('mac')
     "----------
@@ -50,8 +50,8 @@ catch
 endtry
 
 " go-lang
-try
-    source ~/.vim/configs/go.vim
-catch
-endtry
+"try
+"    source ~/.vim/configs/go.vim
+"catch
+"endtry
 
