@@ -54,6 +54,7 @@ au BufNewFile,BufRead *.es6 set filetype=javascript
 au BufNewFile,BufRead *.mst set filetype=html
 au BufNewFile,BufRead *.dot set filetype=html
 autocmd FileType vue syntax sync fromstart
+au BufRead,BufNewFile *.wpy setlocal filetype=vue.html.javascript.css
 " autocmd BufRead,BufNewFile *.vue setlocal filetype=javascript.vue
 
 set foldmethod=syntax
