@@ -63,6 +63,8 @@ Plug 'sekel/vim-vue-syntastic'
 
 let g:neocomplete#enable_at_startup = 1
 let g:neoformat_enabled_vue = ['prettier']
+let g:vue_disable_pre_processors=1
+autocmd FileType vue syntax sync fromstart
 " let g:ale_fix_on_save = 1
 " let g:ale_linter_aliases={'vue.html.javascript.css': ['html', 'css', 'scss', 'javascript']}
 " let g:ale_linter_aliases.vue = 'html.css.scss.javascript'
