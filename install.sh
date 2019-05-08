@@ -6,4 +6,4 @@ git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 echo 'configing...'
 ln -s ~/.vim/.vimrc ~/.vimrc
 echo 'run sh ~/.vim/others.sh to install jsctags and js-beautify (may need root)'
-vim -c 'PluginInstall' -c 'q' -c 'q' 
+vim -c 'PlugInstall' -c 'q' -c 'q' 
