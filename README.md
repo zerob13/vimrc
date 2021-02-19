@@ -26,8 +26,8 @@ curl -fsSL https://raw.githubusercontent.com/zerob13/vimrc/master/install.sh | b
 ```shell
 git clone https://github.com/zerob13/vimrc.git  ~/.vim
 git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
-cp ~/.vim/.vimrc ~/.vimrc
-vim -c 'PluginInstall' -c 'q' -c 'q'
+ln -s ~/.vim/.vimrc ~/.vimrc
+vim -c 'PlugInstall' -c 'q' -c 'q'
 ```
 
 ## Options (requires node.js)
